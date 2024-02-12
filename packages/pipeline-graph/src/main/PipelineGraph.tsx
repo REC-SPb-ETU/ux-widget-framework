@@ -188,7 +188,7 @@ export class PipelineGraph extends React.Component {
         const { nodeRadius } = this.state.layout;
 
         const seqContainerName = details.text;
-        const y = details.y;
+        const y = details.y - Math.floor(nodeRadius * 2); // Because label Y must be above branch
         const x = details.x - Math.floor(nodeRadius * 2); // Because label X is a "node center"-relative position
 
         const containerStyle: any = {
