@@ -22,4 +22,4 @@
 3.  `npm i`
 4.  `npm run bootstrap`
 5.  `npm run dist`
-6.  `tar -czf ux-widget-framework-dist.tar.gz packages/*/dist/`
+6.  `npm pack packages/pipeline-graph`
