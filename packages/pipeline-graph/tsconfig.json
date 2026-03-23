@@ -3,13 +3,13 @@
     "extends": "./tsconfig.base.json",
     "compilerOptions": {
         "outDir": "./build",
+        "skipLibCheck": true,
+        "types": ["node"]
     },
     "include": [
         "src/main/**/*.ts",
         "src/main/**/*.tsx",
-        "src/test/**/*.ts",
-        "src/test/**/*.tsx",
         "src/stories/**/*.ts",
-        "src/stories/**/*.tsx",
+        "src/stories/**/*.tsx"
     ]
 }

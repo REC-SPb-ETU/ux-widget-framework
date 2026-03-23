@@ -18,7 +18,8 @@
 ### NPM
 
 1.  Clone the repo
-2.  `cd blueocean-widgets`
+2.  `nvm use 10`
 3.  `npm i`
 4.  `npm run bootstrap`
 5.  `npm run dist`
+6.  `tar -czf ux-widget-framework-dist.tar.gz packages/*/dist/`

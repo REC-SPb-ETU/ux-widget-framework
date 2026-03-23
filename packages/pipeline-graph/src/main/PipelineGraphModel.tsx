@@ -14,7 +14,7 @@ export enum Result {
 export function decodeResultValue(resultMaybe: any): Result {
     const lcase = String(resultMaybe).toLowerCase();
     for (const enumKey of Object.keys(Result)) {
-        const enumValue = Result[enumKey as any];
+        const enumValue = Result[enumKey as keyof typeof Result];
         if (enumKey.toLowerCase() === lcase || enumValue.toLowerCase() === lcase) {
             return enumValue as Result;
         }

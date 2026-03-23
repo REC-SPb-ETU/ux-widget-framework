@@ -4,7 +4,8 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es6",
-        "outDir": "./dist/build"
+        "outDir": "./dist/build",
+        "skipLibCheck": true
     },
     "exclude": [
         "src/HostEvents.ts",

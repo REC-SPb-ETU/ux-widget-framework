@@ -11,9 +11,11 @@
         "experimentalDecorators":true,
         "strict": true,
         "sourceMap": true,
+        "skipLibCheck": true,
+        "types": ["node"]
     },
     "include": [
         "src/**/*.ts",
-        "test/**/*.ts",
+        "test/**/*.ts"
     ]
 }

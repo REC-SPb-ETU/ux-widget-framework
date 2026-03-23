@@ -2,7 +2,8 @@
 {
     "extends": "./tsconfig.json",
     "compilerOptions": {
-        "outDir": "./dist/lib"
+        "outDir": "./dist/lib",
+        "skipLibCheck": true
     },
     "exclude": [
         "src/distPackage.ts",

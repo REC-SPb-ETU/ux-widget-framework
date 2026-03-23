@@ -9,7 +9,8 @@
         "jsx": "react",
         "experimentalDecorators": true,
         "strict": true,
-        "sourceMap": true
+        "sourceMap": true,
+        "skipLibCheck": true
     },
     "exclude": ["node_modules"]
 }
